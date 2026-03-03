@@ -1,0 +1,16 @@
+PODS:
+  - StinkenNetwork (0.1.0)
+
+DEPENDENCIES:
+  - StinkenNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  StinkenNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StinkenNetwork: 26602d5f22e27712720a281a17c03c95a18ad8de
+
+PODFILE CHECKSUM: fabd3e1cd5e4cebf271cdb063e9680d2e6e8eb6c
+
+COCOAPODS: 1.16.2

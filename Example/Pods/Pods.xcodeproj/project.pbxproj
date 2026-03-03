@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FAFF3B9554940B56FDB6A02288181E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		437E816C4A65268C6666A66263C8DB89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6B9EE12AB486131FE7ED2DE4812EA331 /* Pods-StinkenNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86D51A956DF814F0E3947749DF1AD5 /* Pods-StinkenNetwork_Example-dummy.m */; };
+		6DD16FD83D028C2AD770F67E38289CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6F1570F167BA92D25F4C99E5C20C1ED7 /* ddd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8AF11CA58FD252CB4EE8DEA06AD44B /* ddd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D547A62F39F587C542C0F362FB7EC26 /* Pods-StinkenNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 182015B81A26603AC6241548191816C3 /* Pods-StinkenNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AA432A1459CA373D9BAA42ADB76106 /* StinkenNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C6AC74252652E9D66C60C3717DDFDD /* StinkenNetwork-dummy.m */; };
+		ADDAFE6B03CD1A4C70DE65714DA9E325 /* ddd.m in Sources */ = {isa = PBXBuildFile; fileRef = 15152B709A1AB4172D8D35BC5A754C3F /* ddd.m */; };
+		EFF638E5D59B05372E1AB4744CC1C5E4 /* Pods-StinkenNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABC9BAA31496D1ABE027F1A9EEB6C56 /* Pods-StinkenNetwork_Tests-dummy.m */; };
+		F2E1675C936B5F567EF83C96FC7360B6 /* StinkenNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C8FCA4988648F41AA00D7832B76E97 /* StinkenNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB482F76BCB903A1D38992D7C7D0C04E /* Pods-StinkenNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF1E48AFE8CAAF0F6B7A6CE4918163E /* Pods-StinkenNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		679CDF98E822F45B80532D9AEF6ED804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B49D5028339388AC2101D4D0E4C259B;
+			remoteInfo = "Pods-StinkenNetwork_Example";
+		};
+		740FA11D5E5A90D40C3D4CE7C7399BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC14B7569B5D251DC11939AE46003E83;
+			remoteInfo = StinkenNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A3412F706D337904E975745F963AE4 /* Pods-StinkenNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StinkenNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15152B709A1AB4172D8D35BC5A754C3F /* ddd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ddd.m; path = StinkenNetwork/Classes/ddd.m; sourceTree = "<group>"; };
+		153DBEA5AE529E49507AF258C4F3EA25 /* Pods-StinkenNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StinkenNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		182015B81A26603AC6241548191816C3 /* Pods-StinkenNetwork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StinkenNetwork_Example-umbrella.h"; sourceTree = "<group>"; };
+		33C6AC74252652E9D66C60C3717DDFDD /* StinkenNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StinkenNetwork-dummy.m"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CECF9FDD3A06D389811651D84C597A6 /* Pods-StinkenNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StinkenNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DD2C9CD7C914432352A5EF7CAFF43A9 /* Pods-StinkenNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StinkenNetwork_Tests.modulemap"; sourceTree = "<group>"; };
+		3F90C6E24BDF96D8877F163664203158 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4038597A33178EF1925AE240E17EFA9C /* Pods-StinkenNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StinkenNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4366433C4BBB8DC7D12564EC35CFE4DA /* Pods-StinkenNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StinkenNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AA4C88B74CF8A67E1FA1CBF31055107 /* Pods-StinkenNetwork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StinkenNetwork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EECBCADD81E0D2C163EDC9C869E5187 /* StinkenNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StinkenNetwork.release.xcconfig; sourceTree = "<group>"; };
+		5FF5DDB76863799F2A1B5BB5EF08F117 /* Pods_StinkenNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinkenNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7353C18B8846C9493548C13AE6E4FF4B /* StinkenNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StinkenNetwork-Info.plist"; sourceTree = "<group>"; };
+		7755EE694BC6438622B1769644B18610 /* Pods-StinkenNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StinkenNetwork_Example-Info.plist"; sourceTree = "<group>"; };
+		7A63F45BE727864B625DB94E8E919569 /* Pods-StinkenNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StinkenNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
+		7B8AF11CA58FD252CB4EE8DEA06AD44B /* ddd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ddd.h; path = StinkenNetwork/Classes/ddd.h; sourceTree = "<group>"; };
+		838EA77579375162755D87AA7088D348 /* Pods_StinkenNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinkenNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF1E48AFE8CAAF0F6B7A6CE4918163E /* Pods-StinkenNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StinkenNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
+		91C8FCA4988648F41AA00D7832B76E97 /* StinkenNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StinkenNetwork-umbrella.h"; sourceTree = "<group>"; };
+		9807DAD36AC52A687BE3EF880A860703 /* StinkenNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StinkenNetwork-prefix.pch"; sourceTree = "<group>"; };
+		9B4328975976B30D6F57F1A2C3E4647E /* Pods-StinkenNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StinkenNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9ECD12DD75962D104C161AC24A79D4 /* Pods-StinkenNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StinkenNetwork_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5A33B7C97FFA13B013D540B58200558 /* StinkenNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StinkenNetwork.modulemap; sourceTree = "<group>"; };
+		AA86D51A956DF814F0E3947749DF1AD5 /* Pods-StinkenNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StinkenNetwork_Example-dummy.m"; sourceTree = "<group>"; };
+		AB837F9B5ABA33779C5FEEE77FAD2FB4 /* StinkenNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StinkenNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		AE2C05CF9467C2643B12FDF236BA950E /* StinkenNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StinkenNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		BF599E476EE596741D2D13DF5634A6DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF26651E92A603B2E202A24FDE1DED0D /* Pods-StinkenNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StinkenNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E0D065EE4CD54C48F8C7222C24AA186F /* StinkenNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StinkenNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABC9BAA31496D1ABE027F1A9EEB6C56 /* Pods-StinkenNetwork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StinkenNetwork_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9688CF23EFBB645D5B3DDDD4AC8E6A5 /* Pods-StinkenNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StinkenNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EB8FC4AC47505B13F290103B48BDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437E816C4A65268C6666A66263C8DB89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9CCD8B85EFD70049A2BF7130064D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAFF3B9554940B56FDB6A02288181E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C964E8E39E55D209A7738B606146B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD16FD83D028C2AD770F67E38289CD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1102F0836DD33BAF11F86900532FE992 /* Pods-StinkenNetwork_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2C9CD7C914432352A5EF7CAFF43A9 /* Pods-StinkenNetwork_Tests.modulemap */,
+				3CECF9FDD3A06D389811651D84C597A6 /* Pods-StinkenNetwork_Tests-acknowledgements.markdown */,
+				4366433C4BBB8DC7D12564EC35CFE4DA /* Pods-StinkenNetwork_Tests-acknowledgements.plist */,
+				EABC9BAA31496D1ABE027F1A9EEB6C56 /* Pods-StinkenNetwork_Tests-dummy.m */,
+				7A63F45BE727864B625DB94E8E919569 /* Pods-StinkenNetwork_Tests-Info.plist */,
+				8AF1E48AFE8CAAF0F6B7A6CE4918163E /* Pods-StinkenNetwork_Tests-umbrella.h */,
+				9B4328975976B30D6F57F1A2C3E4647E /* Pods-StinkenNetwork_Tests.debug.xcconfig */,
+				F9688CF23EFBB645D5B3DDDD4AC8E6A5 /* Pods-StinkenNetwork_Tests.release.xcconfig */,
+			);
+			name = "Pods-StinkenNetwork_Tests";
+			path = "Target Support Files/Pods-StinkenNetwork_Tests";
+			sourceTree = "<group>";
+		};
+		40B04C24EFF8790B8796F57D233F8C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838EA77579375162755D87AA7088D348 /* Pods_StinkenNetwork_Example.framework */,
+				5FF5DDB76863799F2A1B5BB5EF08F117 /* Pods_StinkenNetwork_Tests.framework */,
+				E0D065EE4CD54C48F8C7222C24AA186F /* StinkenNetwork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4431D81CD01F5C7987F4812906657160 /* Pods-StinkenNetwork_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B9ECD12DD75962D104C161AC24A79D4 /* Pods-StinkenNetwork_Example.modulemap */,
+				4AA4C88B74CF8A67E1FA1CBF31055107 /* Pods-StinkenNetwork_Example-acknowledgements.markdown */,
+				153DBEA5AE529E49507AF258C4F3EA25 /* Pods-StinkenNetwork_Example-acknowledgements.plist */,
+				AA86D51A956DF814F0E3947749DF1AD5 /* Pods-StinkenNetwork_Example-dummy.m */,
+				DF26651E92A603B2E202A24FDE1DED0D /* Pods-StinkenNetwork_Example-frameworks.sh */,
+				7755EE694BC6438622B1769644B18610 /* Pods-StinkenNetwork_Example-Info.plist */,
+				182015B81A26603AC6241548191816C3 /* Pods-StinkenNetwork_Example-umbrella.h */,
+				12A3412F706D337904E975745F963AE4 /* Pods-StinkenNetwork_Example.debug.xcconfig */,
+				4038597A33178EF1925AE240E17EFA9C /* Pods-StinkenNetwork_Example.release.xcconfig */,
+			);
+			name = "Pods-StinkenNetwork_Example";
+			path = "Target Support Files/Pods-StinkenNetwork_Example";
+			sourceTree = "<group>";
+		};
+		4F727CA75AD842E515A5E7C68D0ACFFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F90C6E24BDF96D8877F163664203158 /* LICENSE */,
+				BF599E476EE596741D2D13DF5634A6DE /* README.md */,
+				AB837F9B5ABA33779C5FEEE77FAD2FB4 /* StinkenNetwork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7216252413007C3B092B9D074A4A0440 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4431D81CD01F5C7987F4812906657160 /* Pods-StinkenNetwork_Example */,
+				1102F0836DD33BAF11F86900532FE992 /* Pods-StinkenNetwork_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC59959865A41339B591C31B58AFDE4E /* StinkenNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7B8AF11CA58FD252CB4EE8DEA06AD44B /* ddd.h */,
+				15152B709A1AB4172D8D35BC5A754C3F /* ddd.m */,
+				4F727CA75AD842E515A5E7C68D0ACFFB /* Pod */,
+				E6F63E40DA5777E01083AA31F5A86720 /* Support Files */,
+			);
+			name = StinkenNetwork;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FD2E330BE9F9DFDA9F4837929719653E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				40B04C24EFF8790B8796F57D233F8C4F /* Products */,
+				7216252413007C3B092B9D074A4A0440 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6F63E40DA5777E01083AA31F5A86720 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A33B7C97FFA13B013D540B58200558 /* StinkenNetwork.modulemap */,
+				33C6AC74252652E9D66C60C3717DDFDD /* StinkenNetwork-dummy.m */,
+				7353C18B8846C9493548C13AE6E4FF4B /* StinkenNetwork-Info.plist */,
+				9807DAD36AC52A687BE3EF880A860703 /* StinkenNetwork-prefix.pch */,
+				91C8FCA4988648F41AA00D7832B76E97 /* StinkenNetwork-umbrella.h */,
+				AE2C05CF9467C2643B12FDF236BA950E /* StinkenNetwork.debug.xcconfig */,
+				5EECBCADD81E0D2C163EDC9C869E5187 /* StinkenNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StinkenNetwork";
+			sourceTree = "<group>";
+		};
+		FD2E330BE9F9DFDA9F4837929719653E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC59959865A41339B591C31B58AFDE4E /* StinkenNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79352C17DA21AAB3E000A7103E0C58BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1570F167BA92D25F4C99E5C20C1ED7 /* ddd.h in Headers */,
+				F2E1675C936B5F567EF83C96FC7360B6 /* StinkenNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6C00EC9457D50CFE152754D7DAE6E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D547A62F39F587C542C0F362FB7EC26 /* Pods-StinkenNetwork_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A271730F4EEAD123E3ACA53EADFF80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB482F76BCB903A1D38992D7C7D0C04E /* Pods-StinkenNetwork_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B49D5028339388AC2101D4D0E4C259B /* Pods-StinkenNetwork_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F864F8A531CCBAB092A9DF61E133ADE8 /* Build configuration list for PBXNativeTarget "Pods-StinkenNetwork_Example" */;
+			buildPhases = (
+				7A6C00EC9457D50CFE152754D7DAE6E7 /* Headers */,
+				E589733A9430AF9D3C4993570D627788 /* Sources */,
+				BC9CCD8B85EFD70049A2BF7130064D4C /* Frameworks */,
+				20EAEE0A85EC9578B4C61157F8D8C775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811C9F8CB3EDD55E673F5E108810FFE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-StinkenNetwork_Example";
+			productName = Pods_StinkenNetwork_Example;
+			productReference = 838EA77579375162755D87AA7088D348 /* Pods_StinkenNetwork_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AA2C80B7848DED4D535AF0CFDF11E01 /* Pods-StinkenNetwork_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3611292EE989B6D7BC5762B0481DC666 /* Build configuration list for PBXNativeTarget "Pods-StinkenNetwork_Tests" */;
+			buildPhases = (
+				E1A271730F4EEAD123E3ACA53EADFF80 /* Headers */,
+				DDEC237A482CE873A0A0A1B70BEF3F31 /* Sources */,
+				1EB8FC4AC47505B13F290103B48BDA2E /* Frameworks */,
+				782A62E02CA148B60B6EAAF1EC948993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6C937FBA494FCE63F242D24F64531F /* PBXTargetDependency */,
+			);
+			name = "Pods-StinkenNetwork_Tests";
+			productName = Pods_StinkenNetwork_Tests;
+			productReference = 5FF5DDB76863799F2A1B5BB5EF08F117 /* Pods_StinkenNetwork_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC14B7569B5D251DC11939AE46003E83 /* StinkenNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC28B59B29A6346EF78F3C7C1A6D96DF /* Build configuration list for PBXNativeTarget "StinkenNetwork" */;
+			buildPhases = (
+				79352C17DA21AAB3E000A7103E0C58BE /* Headers */,
+				5F59037C9B1D3EB11E00FE077CE715BB /* Sources */,
+				F6C964E8E39E55D209A7738B606146B3 /* Frameworks */,
+				39DE5B74A11766877213D86BBBCDF923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StinkenNetwork;
+			productName = StinkenNetwork;
+			productReference = E0D065EE4CD54C48F8C7222C24AA186F /* StinkenNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 40B04C24EFF8790B8796F57D233F8C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B49D5028339388AC2101D4D0E4C259B /* Pods-StinkenNetwork_Example */,
+				9AA2C80B7848DED4D535AF0CFDF11E01 /* Pods-StinkenNetwork_Tests */,
+				BC14B7569B5D251DC11939AE46003E83 /* StinkenNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EAEE0A85EC9578B4C61157F8D8C775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DE5B74A11766877213D86BBBCDF923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782A62E02CA148B60B6EAAF1EC948993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F59037C9B1D3EB11E00FE077CE715BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDAFE6B03CD1A4C70DE65714DA9E325 /* ddd.m in Sources */,
+				A7AA432A1459CA373D9BAA42ADB76106 /* StinkenNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC237A482CE873A0A0A1B70BEF3F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF638E5D59B05372E1AB4744CC1C5E4 /* Pods-StinkenNetwork_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E589733A9430AF9D3C4993570D627788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9EE12AB486131FE7ED2DE4812EA331 /* Pods-StinkenNetwork_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811C9F8CB3EDD55E673F5E108810FFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StinkenNetwork;
+			target = BC14B7569B5D251DC11939AE46003E83 /* StinkenNetwork */;
+			targetProxy = 740FA11D5E5A90D40C3D4CE7C7399BA6 /* PBXContainerItemProxy */;
+		};
+		9A6C937FBA494FCE63F242D24F64531F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StinkenNetwork_Example";
+			target = 7B49D5028339388AC2101D4D0E4C259B /* Pods-StinkenNetwork_Example */;
+			targetProxy = 679CDF98E822F45B80532D9AEF6ED804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		243EE13EF4F52E19774534F95BDE1D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4038597A33178EF1925AE240E17EFA9C /* Pods-StinkenNetwork_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-StinkenNetwork_Example/Pods-StinkenNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StinkenNetwork_Example/Pods-StinkenNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73C60DB3C5CFD2AC4EB31496F618B91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EECBCADD81E0D2C163EDC9C869E5187 /* StinkenNetwork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/StinkenNetwork/StinkenNetwork-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/StinkenNetwork/StinkenNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StinkenNetwork/StinkenNetwork.modulemap";
+				PRODUCT_MODULE_NAME = StinkenNetwork;
+				PRODUCT_NAME = StinkenNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7921C9E4CB7F314730B8DEF672716A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9688CF23EFBB645D5B3DDDD4AC8E6A5 /* Pods-StinkenNetwork_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2E272D8414C847224D94F7EE22C4CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4328975976B30D6F57F1A2C3E4647E /* Pods-StinkenNetwork_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCA611B10439EDF97766AF3A4C134196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A3412F706D337904E975745F963AE4 /* Pods-StinkenNetwork_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-StinkenNetwork_Example/Pods-StinkenNetwork_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StinkenNetwork_Example/Pods-StinkenNetwork_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE24692AE8345CB7D4C260801C974E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2C05CF9467C2643B12FDF236BA950E /* StinkenNetwork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/StinkenNetwork/StinkenNetwork-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/StinkenNetwork/StinkenNetwork-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StinkenNetwork/StinkenNetwork.modulemap";
+				PRODUCT_MODULE_NAME = StinkenNetwork;
+				PRODUCT_NAME = StinkenNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3611292EE989B6D7BC5762B0481DC666 /* Build configuration list for PBXNativeTarget "Pods-StinkenNetwork_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E272D8414C847224D94F7EE22C4CF1 /* Debug */,
+				7921C9E4CB7F314730B8DEF672716A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC28B59B29A6346EF78F3C7C1A6D96DF /* Build configuration list for PBXNativeTarget "StinkenNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE24692AE8345CB7D4C260801C974E73 /* Debug */,
+				73C60DB3C5CFD2AC4EB31496F618B91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F864F8A531CCBAB092A9DF61E133ADE8 /* Build configuration list for PBXNativeTarget "Pods-StinkenNetwork_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA611B10439EDF97766AF3A4C134196 /* Debug */,
+				243EE13EF4F52E19774534F95BDE1D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

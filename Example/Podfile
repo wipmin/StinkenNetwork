@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'StinkenNetwork_Example' do
+  pod 'StinkenNetwork', :path => '../'
+
+  target 'StinkenNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
