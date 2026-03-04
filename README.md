@@ -20,9 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'StinkenNetwork'
 ```
 
-## Author
-
-wipmin, sushiWiper@163.com
 
 ## License
 
