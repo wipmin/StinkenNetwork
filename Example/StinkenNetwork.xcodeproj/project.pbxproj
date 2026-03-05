@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02BBFC0181FCBA9E0AEC7DDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		02BBFC0181FCBA9E0AEC7DDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		07EC29514535175D52183126 /* Pods-StinkenNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinkenNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		08DFC2956C40421F1A354556 /* Pods_StinkenNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinkenNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F6459E86B41C971E0617B8 /* StinkenNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StinkenNetwork.podspec; path = ../StinkenNetwork.podspec; sourceTree = "<group>"; };
+		37F6459E86B41C971E0617B8 /* StinkenNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StinkenNetwork.podspec; path = ../StinkenNetwork.podspec; sourceTree = "<group>"; };
 		530BD9BA7AFFA0740AD7A80A /* Pods-StinkenNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinkenNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StinkenNetwork_Tests/Pods-StinkenNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* StinkenNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StinkenNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95A4DE3E9C2537E979B4DEBE /* Pods-StinkenNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StinkenNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-StinkenNetwork_Example/Pods-StinkenNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AA279024B54794A373267DBC /* Pods_StinkenNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StinkenNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF61ADA731BDE1B8F90F0EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF61ADA731BDE1B8F90F0EFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				530BD9BA7AFFA0740AD7A80A /* Pods-StinkenNetwork_Tests.debug.xcconfig */,
 				07EC29514535175D52183126 /* Pods-StinkenNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,10 +497,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StinkenNetwork/StinkenNetwork-Prefix.pch";
 				INFOPLIST_FILE = "StinkenNetwork/StinkenNetwork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,10 +519,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StinkenNetwork/StinkenNetwork-Prefix.pch";
 				INFOPLIST_FILE = "StinkenNetwork/StinkenNetwork-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
